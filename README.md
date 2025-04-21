@@ -46,3 +46,15 @@ Training is based on a simple and intuitive idea:
 - The LSTM model is trained locally and saved as `torch_bite_model.pt`.
 
 This approach simulates the way we might remember recent rounds to guess the next move!
+
+### Project Structure
+```
+.
+├── 550x455.jpg                    # Crocodile image
+├── inputs.txt                     # Historical bites dataset (one number per line)
+├── torch_bite_model.pt            # Trained LSTM model (auto-generated)
+├── predictive_torch_crocodile.py  # Training and prediction logic
+├── torch_predictor_app.py         # Streamlit UI
+├── requirements.txt
+└── README.md
+```
