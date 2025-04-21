@@ -1,12 +1,13 @@
 # 🐊 Predictive Crocodile — Torch Edition
 
 Welcome to **Predictive Crocodile**, a playful machine learning project where we predict the next "bite" based on the last few moves — powered by PyTorch and Streamlit!
+My idea is to teach youngers about Machine Learning in a fun way.
 
 ![Crocodile Logo](550x455.jpg)
 
 ---
 
-## 🧠 What it does
+## What it does
 
 Given a sequence of the last 5 numbers, Predictive Crocodile:
 - Trains an LSTM-based neural network on past input sequences (`inputs.txt`)
@@ -17,7 +18,7 @@ No database, no continuous training — just **clean fun** and **local predictio
 
 ---
 
-## 🛠️ How to use
+## How to use
 
 ### 1. Clone this repo
 ```bash
